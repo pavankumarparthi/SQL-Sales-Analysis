@@ -72,7 +72,7 @@ The analysis includes sales trends, customer behavior, product performance, KPI 
 ```
 SQL-Sales-Analysis
 │
-├── Sales Performance Analysis.sql
+├── Sales_Analysis_Project.sql
 └── README.md
 ```
 
