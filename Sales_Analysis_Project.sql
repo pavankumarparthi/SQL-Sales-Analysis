@@ -837,7 +837,7 @@ WHERE rnk<= 10;
 Go
 
 /*============================================================================================================
-Find all orders placed in the last 30 days. Also, extract the month and year from the order date.
+18) Find all orders placed in the last 30 days. Also, extract the month and year from the order date.
 =============================================================================================================*/
 SELECT
     order_number,
@@ -849,7 +849,7 @@ FROM fact_sales
 WHERE order_date >= DATEADD(DAY, -30, GETDATE());
 
 /*==============================================================================================================================
---Calculate the month-over-month revenue growth. Show current month revenue, previous month revenue, and percentage change.
+19) Calculate the month-over-month revenue growth. Show current month revenue, previous month revenue, and percentage change.
 ===============================================================================================================================*/
 
 SELECT *,
@@ -872,7 +872,7 @@ FROM
 ) t;
 
 /*===========================================================================================
--- Find the running total of sales by date.
+20)  Find the running total of sales by date.
 ============================================================================================*/
 
 SELECT *,
